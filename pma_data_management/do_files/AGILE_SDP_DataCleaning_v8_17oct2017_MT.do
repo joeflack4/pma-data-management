@@ -2,6 +2,7 @@ clear
 clear matrix
 clear mata
 capture log close
+* OMG CHANGES!
 set maxvar 15000
 set more off
 numlabel, add
@@ -27,6 +28,7 @@ numlabel, add
 * 3. Clean facility names in Section 7
 * 4. Apply random ID number from pre-specified country range to facility name in
 *  Section 8
+* OMG MORE CHANGES!
 * 5. Apply random ID number from pre-specified country range to EA name in 
 *  Section 9
 * 6. Clean RE names and apply random ID number from pre-specified country range 
@@ -48,6 +50,7 @@ numlabel, add
 local country "Kenya"
 local round "Round1"
 local roundnum "1"
+* OMG MORE CHANGES!
 local CCRX "AGILE"
 
 * Set macros for csv file name(s)
